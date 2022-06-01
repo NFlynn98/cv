@@ -2,64 +2,63 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8"> <!---utf 8 is the most common characterset used worldwide--->
-  <title>Noah's Personal Site</title><!---title displayed at the top of the webpage--->
-</head><!---This is a header used to give a brief description of the web page--->
+  <meta charset="utf-8">
+  <title>Noah Flynn</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!--used to reference to an external CSS style sheet-->
+  <link rel="icon" href="favicon.ico">
+  <!--a reference to a favicon image-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <!--This is a link to my google fonts so that they are always diplayed-->
+</head>
 
-<body><!---the contents displayed on the webpage are kept inside of the body tags--->
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/Noah.png" alt="Noah profile picture"></td>
-      <td><h1>Noah Flynn</h1>
-      <p><em>Self-Taught <strong>Web Developer</strong></em></p>
-      <p>I am a self-taught web developer from Saint Petersburg, FL. I love animals and enjoy playing video games.</p></td>
-    </tr>
-  </table>
-  <hr><!---Horizontal rule--->
-  <h3>Education</h3>
-  <ul>
-    <li>High School Diploma - Florida Virtual School - 2017</li>
-    <li>The Complete 2022 Web Development Bootcamp - Angela Yu- Udemy - 2022</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead><!---Table header--->
-      <tr><!---table row--->
-        <th>Dates</th><!---header displayed on table head--->
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>2018</td><!---data displayed in table row--->
-      <td>LMN Communications</td>
-    </tr>
-    <tr>
-      <td>2018-2021</td>
-      <td>Publix Supermarkets</td>
-    </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>⭐</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a><!---this is an anchor tag normally used for a link--->
-  <a href="contactme.html">Contact me</a>
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Noah.</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/Noah.png" alt="profile-pic">
+      <h2>Hello.</h2>
+      <p class="intro">I am a self-taught web developer. I ❤️ coffee, animals and the outdoors.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="coding" src="images/programming.png" alt="programming-pic">
+        <h3>Design and Development</h3>
+        <p>I am an aspiring self-taught web developer. I gained the interest to code as a child due to my love for video games. Now im teaching myself to code at the age of 23.</p>
+      </div>
+      <div class="skill-row">
+        <img class="wings" src="images/chicken.png" alt="hot-wing">
+        <h3>Hot Wing King</h3>
+        <p>But my best skill is actually in eating hot wings. I am the undisputed king of hot wing challenges. I eat all things that are spicy too.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can game and eat some hot wings!</p>
+      <a class="btn" href="mailto:nrflynn98@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/noah-f-866520129/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/NoahEngineers">Twitter</a>
+    <a class="footer-link" href="https://www.facebook.com/xTheFluffy1/">Facebook</a>
+    <p class="copyright">© 2022 Noah Flynn .</p>
+  </div>
+
 </body>
 
 </html>
